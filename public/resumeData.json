@@ -1,28 +1,26 @@
 {
   "main": {
     "name": "Muhammad Zulhilmi Bin Rahmat",
-    "occupation": "Apprentice Software Developer",
-    "description": "Trying to get into the IT Industry",
+    "occupation": "Software Developer",
+    "description": "",
     "image": "profilepic.jpg",
     "bio": "I am a highly motivated individual, currently seeking a career in software development. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
     "contactmessage": "Get in touch!",
     "email": "zulhilmirahmat@gmail.com",
     "phone": "+65 81827604",
     "address": {
-      "street": "123 Dev Lane",
       "city": "Singapore"
     },
     "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
     "social": [
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/zulhilmirahmat/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/ZulAmi",
         "className": "fa fa-github"
       }
     ]
@@ -47,12 +45,12 @@
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "HTML",
+        "level": "50%"
       },
       {
-        "name": "Python",
-        "level": "85%"
+        "name": "CSS",
+        "level": "50%"
       },
       {
         "name": "Git",
@@ -60,11 +58,11 @@
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "50%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "React.JS",
+        "level": "50%"
       }
     ]
   },

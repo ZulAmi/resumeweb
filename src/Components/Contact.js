@@ -8,10 +8,7 @@ const Contact = ({ data }) => {
 
   if (data) {
     var contactName = data.name;
-    var street = data.address.street;
     var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
     var phone = data.phone;
     var contactEmail = data.email;
     // var contactMessage = data.contactmessage;
@@ -110,7 +107,7 @@ const Contact = ({ data }) => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning"> Error Occured</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
@@ -124,10 +121,8 @@ const Contact = ({ data }) => {
               {contactName}
               <br />
               {contactEmail}
-              <br />
-              <br />
-              {street} <br />
-              {city}, {state} {zip}
+              {/* {street} <br /> */}
+              {city}
               <br />
               <span>{phone}</span>
             </p>
