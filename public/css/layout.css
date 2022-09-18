@@ -889,7 +889,7 @@ footer .social-links li {
    margin: 0;
    padding: 0;
    margin-left: 42px;
-   color: #F06000;
+   color: red;
 }
 
 footer .social-links li:first-child {
@@ -925,5 +925,5 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-   background-color: #0F9095;
+   background-color: red;
 }
