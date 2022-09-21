@@ -5,8 +5,8 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
-
 import "./App.css";
+import Portfolio from "./Components/Portfolio";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -24,6 +24,7 @@ const App = () => {
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
+      <Portfolio data={resumeData.portfolio} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
     </div>
