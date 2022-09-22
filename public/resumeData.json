@@ -71,25 +71,25 @@
       {
         "title": "1-to-1 Message",
         "category": "",
-        "image": "snapchat.jpg",
+        "image": "",
         "url": ""
       },
       {
         "title": "E-Commerce",
         "category": "",
-        "image": "gmail.jpg",
-        "url": ""
+        "image": "",
+        "url": "https://kekasih.herokuapp.com/"
       },
       {
         "title": "Ethereum dApp",
         "category": "",
-        "image": "linkedin.jpg",
+        "image": "",
         "url": ""
       },
       {
         "title": "Instagram Clone",
         "category": "",
-        "image": "linkedin.jpg",
+        "image": "",
         "url": ""
       }
     ]
