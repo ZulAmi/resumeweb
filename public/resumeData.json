@@ -27,22 +27,6 @@
   },
   "resume": {
     "skillmessage": "My Programming Language Proficiency",
-    "education": [
-      {
-        "school": "University of Western Australia",
-        "degree": "Bachelor of Science, Biomedical Science",
-        "graduated": "July 2014",
-        "description": ""
-      }
-    ],
-    "work": [
-      {
-        "company": "Whooshpro",
-        "title": "Apprentice Software Developer",
-        "years": "July 2022 - Present",
-        "description": "Web development for multiple clients."
-      }
-    ],
     "skills": [
       {
         "name": "HTML",
@@ -87,7 +71,7 @@
         "url": ""
       },
       {
-        "title": "Instagram Clone",
+        "title": "API",
         "category": "",
         "image": "",
         "url": ""
