@@ -4,14 +4,13 @@
     "occupation": "Software Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "I am a highly motivated individual, currently seeking a career in software development. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
+    "bio": "I am a highly motivated individual, currently seeking a career in software development. Always curious and willing to learn new technologies. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
     "contactmessage": "Get in touch!",
     "email": "zulhilmirahmat@gmail.com",
     "phone": "+65 81827604",
     "address": {
       "city": "Singapore"
     },
-    "website": "https://www.papareact.com/course",
     "social": [
       {
         "name": "linkedin",
@@ -27,22 +26,6 @@
   },
   "resume": {
     "skillmessage": "My Programming Language Proficiency",
-    "education": [
-      {
-        "school": "University of Western Australia",
-        "degree": "Bachelor of Science, Biomedical Science",
-        "graduated": "July 2014",
-        "description": ""
-      }
-    ],
-    "work": [
-      {
-        "company": "Whooshpro",
-        "title": "Apprentice Software Developer",
-        "years": "July 2022 - Present",
-        "description": "Web development for multiple clients."
-      }
-    ],
     "skills": [
       {
         "name": "HTML",
@@ -71,25 +54,25 @@
       {
         "title": "1-to-1 Message",
         "category": "",
-        "image": "snapchat.jpg",
+        "image": "",
         "url": ""
       },
       {
         "title": "E-Commerce",
         "category": "",
-        "image": "gmail.jpg",
-        "url": ""
+        "image": "",
+        "url": "https://kekasih.herokuapp.com/"
       },
       {
         "title": "Ethereum dApp",
         "category": "",
-        "image": "linkedin.jpg",
+        "image": "",
         "url": ""
       },
       {
-        "title": "Instagram Clone",
+        "title": "APIs",
         "category": "",
-        "image": "linkedin.jpg",
+        "image": "",
         "url": ""
       }
     ]
