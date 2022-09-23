@@ -55,10 +55,10 @@
         "title": "1-to-1 Message",
         "category": "",
         "image": "",
-        "url": ""
+        "url": "https://github.com/ZulAmi/whatsapp"
       },
       {
-        "title": "E-Commerce",
+        "title": "E-Commerce Project",
         "category": "",
         "image": "",
         "url": "https://kekasih.herokuapp.com/"
@@ -67,13 +67,13 @@
         "title": "Ethereum dApp",
         "category": "",
         "image": "",
-        "url": ""
+        "url": "https://github.com/ZulAmi/NFTDiploma"
       },
       {
         "title": "APIs",
         "category": "",
         "image": "",
-        "url": ""
+        "url": "https://github.com/ZulAmi/climateAPI"
       }
     ]
   }
