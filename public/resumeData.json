@@ -4,14 +4,13 @@
     "occupation": "Software Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "I am a highly motivated individual, currently seeking a career in software development. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
+    "bio": "I am a highly motivated individual, currently seeking a career in software development. Always curious and willing to learn new technologies. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
     "contactmessage": "Get in touch!",
     "email": "zulhilmirahmat@gmail.com",
     "phone": "+65 81827604",
     "address": {
       "city": "Singapore"
     },
-    "website": "https://www.papareact.com/course",
     "social": [
       {
         "name": "linkedin",
@@ -71,7 +70,7 @@
         "url": ""
       },
       {
-        "title": "API",
+        "title": "APIs",
         "category": "",
         "image": "",
         "url": ""
