@@ -66,13 +66,13 @@
       {
         "title": "Ethereum dApp",
         "category": "",
-        "image": "",
+        "image": "Ethereum-logo.png",
         "url": "https://github.com/ZulAmi/NFTDiploma"
       },
       {
         "title": "APIs",
         "category": "",
-        "image": "",
+        "image": "api.jpg",
         "url": "https://github.com/ZulAmi/climateAPI"
       }
     ]
