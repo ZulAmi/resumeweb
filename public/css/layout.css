@@ -715,11 +715,15 @@ call-to-action .button {
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
-   margin-bottom: 6px;
+   margin-bottom: 3px;
 }
 
 #contact h1 span {
-   display: none;
+   display: flex;
+   width: 100%;
+   background-color: red;
+   margin: auto;
+   text-align: center;
 }
 
 #contact h1:before {
