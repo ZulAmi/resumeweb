@@ -29,7 +29,7 @@ const Contact = ({ data }) => {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span>Let's get in touch!</span>
           </h1>
         </div>
 
