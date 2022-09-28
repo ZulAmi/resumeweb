@@ -1,0 +1,108 @@
+{
+  "main": {
+    "name": "Muhammad Zulhilmi Bin Rahmat",
+    "occupation": "Software Developer",
+    "description": "",
+    "image": "profilepic.jpg",
+<<<<<<< HEAD
+    "bio": "I am a highly motivated individual, currently seeking a career in software development. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
+=======
+    "bio": "I am a highly motivated individual, currently seeking a career in software development. Always curious and willing to learn new technologies. I hope to utilize the variety of software development skills and the interpersonal skills that I possessed over the years – to deliver the optimal digital services for my stakeholders. ",
+>>>>>>> 3d67728bd702a5f2b9666ef246f23e839b9e77e3
+    "contactmessage": "Get in touch!",
+    "email": "zulhilmirahmat@gmail.com",
+    "phone": "+65 81827604",
+    "address": {
+      "city": "Singapore"
+    },
+<<<<<<< HEAD
+    "website": "https://www.papareact.com/course",
+=======
+>>>>>>> 3d67728bd702a5f2b9666ef246f23e839b9e77e3
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/zulhilmirahmat/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ZulAmi",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "50%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "50%"
+      },
+      {
+        "name": "React.JS",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "1-to-1 Message",
+        "category": "",
+<<<<<<< HEAD
+        "image": "",
+        "url": ""
+      },
+      {
+        "title": "E-Commerce",
+        "category": "",
+        "image": "",
+=======
+        "image": "samurai.jpg",
+        "url": "https://github.com/ZulAmi/whatsapp"
+      },
+      {
+        "title": "E-Commerce Project",
+        "category": "",
+        "image": "ecommerce.jpg",
+>>>>>>> 3d67728bd702a5f2b9666ef246f23e839b9e77e3
+        "url": "https://kekasih.herokuapp.com/"
+      },
+      {
+        "title": "Ethereum dApp",
+        "category": "",
+        "image": "",
+<<<<<<< HEAD
+        "url": ""
+      },
+      {
+        "title": "API",
+        "category": "",
+        "image": "",
+        "url": ""
+=======
+        "url": "https://github.com/ZulAmi/NFTDiploma"
+      },
+      {
+        "title": "APIs",
+        "category": "",
+        "image": "",
+        "url": "https://github.com/ZulAmi/climateAPI"
+>>>>>>> 3d67728bd702a5f2b9666ef246f23e839b9e77e3
+      }
+    ]
+  }
+}
