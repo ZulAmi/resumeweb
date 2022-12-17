@@ -126,18 +126,18 @@ jQuery(document).ready(function ($) {
       $.ajax({
 
          type: "POST",
-         url: "inc/sendEmail.php",
+         url: $(form).attr('action'),
          data: data,
          success: function (msg) {
 
-            // Message was sent
+            //sent
             if (msg == 'OK') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
                $('#message-success').fadeIn();
             }
-            // There was an error
+            //error
             else {
                $('#image-loader').fadeOut();
                $('#message-warning').html(msg);

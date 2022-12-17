@@ -1,22 +1,23 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-const Contact = ({ data }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
 
-  if (data) {
-    var contactName = data.name;
-    var city = data.address.city;
-    var phone = data.phone;
-    var contactEmail = data.email;
-    // var contactMessage = data.contactmessage;
-  }
 
-  const submitForm = () => {
+  // if (data) {
+  //   var contactName = data.name;
+  //   var city = data.address.city;
+  //   var phone = data.phone;
+  //   var contactEmail = data.email;
+  // }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
     window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
+      `mailto:negahim666@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
         email
@@ -32,104 +33,59 @@ const Contact = ({ data }) => {
             Let's get in touch!
           </h1>
         </div>
-
-        {/* <div className="ten columns">
-          <p className="lead">{contactMessage}</p>
-        </div> */}
       </div>
 
-      <div className="row">
-        <div className="eight columns">
-          <form onSubmit={submitForm}>
-            <fieldset>
-              <div>
-                <label htmlFor="contactName">
-                  Name <span className="required">*</span>
-                </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={name}
-                  size="35"
-                  id="contactName"
-                  name="contactName"
-                  onChange={(e) => setName(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactEmail">
-                  Email <span className="required">*</span>
-                </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={email}
-                  size="35"
-                  id="contactEmail"
-                  name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactSubject">Subject</label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={subject}
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
-                </label>
-                <textarea
-                  cols="50"
-                  rows="15"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  id="contactMessage"
-                  name="contactMessage"
-                ></textarea>
-              </div>
-
-              <div>
-                <button onClick={submitForm} type="submit" className="submit">
-                  Submit
-                </button>
-              </div>
-            </fieldset>
-          </form>
-
-          <div id="message-warning"> Error Occured</div>
-          <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
-            <br />
-          </div>
+      <form onSubmit={handleSubmit} style={{ width: '1000px', margin: '0 auto' }}>
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            value={name}
+            id="name"
+            name="name"
+            onChange={(e) => setName(e.target.value)}
+            style={{ width: '700px' }}
+          />
         </div>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            value={email}
+            id="email"
+            name="email"
+            onChange={(e) => setEmail(e.target.value)}
+            style={{ width: '700px' }}
+          />
+        </div>
+        <div>
+          <label htmlFor="subject">Subject:</label>
+          <input
+            type="text"
+            value={subject}
+            id="subject"
+            name="subject"
+            onChange={(e) => setSubject(e.target.value)}
+            style={{ width: '700px' }}
+          />
+        </div>
+        <div>
+          <label htmlFor="message">Message:</label>
+          <textarea
+            value={message}
+            id="message"
+            name="message"
+            onChange={(e) => setMessage(e.target.value)}
+            style={{ width: '700px', height: '200px' }}
+          />
+        </div>
+        <div>
+          <button type="submit">Send</button>
+        </div>
+      </form>
 
-        <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Email address and Phone:</h4>
-            <p className="address">
-              {contactName}
-              <br />
-              {contactEmail}
-              {/* {street}*/ <br />}
-              {city}
-              <br />
-              <span>{phone}</span>
-            </p>
-          </div>
-        </aside>
-      </div>
     </section>
+
   );
 };
 
